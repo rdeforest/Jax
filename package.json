@@ -1,0 +1,22 @@
+{
+  "name": "jax-express-app",
+  "version": "1.0.0",
+  "description": "Minimal Express5 app in CoffeeScript",
+  "main": "lib/app.js",
+  "scripts": {
+    "postinstall": "cake build",
+    "start": "node lib/app.js",
+    "dev": "cake dev"
+  },
+  "dependencies": {
+    "express": "^5.0.0",
+    "coffeescript": "^2.7.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["express", "coffeescript", "minimal"],
+  "author": "",
+  "license": "ISC"
+}
