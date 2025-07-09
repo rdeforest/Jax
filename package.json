@@ -2,11 +2,15 @@
   "name": "jax-life-os",
   "version": "0.0.0",
   "description": "An operating system for your life, named after a cat",
-  "main": "lib/app.coffee",
+  "main": "lib/app.js",
   "scripts": {
     "postinstall": "cake build",
-    "start": "coffee lib/app.coffee",
-    "dev": "cake dev"
+    "start": "node lib/app.js",
+    "dev": "cake dev",
+    "dev:frontend": "cd jax-frontend && npm run dev",
+    "dev:both": "npm run dev & npm run dev:frontend",
+    "build:frontend": "cd jax-frontend && npm run build",
+    "build:all": "cake build && npm run build:frontend"
   },
   "dependencies": {
     "express": "^5.0.0",
