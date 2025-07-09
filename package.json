@@ -1,11 +1,11 @@
 {
-  "name": "jax-express-app",
-  "version": "1.0.0",
-  "description": "Minimal Express5 app in CoffeeScript",
-  "main": "lib/app.js",
+  "name": "jax-life-os",
+  "version": "0.0.0",
+  "description": "An operating system for your life, named after a cat",
+  "main": "lib/app.coffee",
   "scripts": {
     "postinstall": "cake build",
-    "start": "node lib/app.js",
+    "start": "coffee lib/app.coffee",
     "dev": "cake dev"
   },
   "dependencies": {
@@ -18,5 +18,5 @@
   },
   "keywords": ["express", "coffeescript", "minimal"],
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
