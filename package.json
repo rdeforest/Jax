@@ -22,5 +22,5 @@
   },
   "keywords": ["express", "coffeescript", "minimal"],
   "author": "",
-  "license": "MIT"
+  "license": "ISC"
 }
